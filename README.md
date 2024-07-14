@@ -7,7 +7,7 @@ Este repositorio contiene scripts y manuales para configurar una máquina virtua
 ### Paso 1: Clonar el Repositorio
 
 ```bash
-git clone https://github.com/tu_usuario/osint_vm_setup.git
+git clone https://github.com/perlechesanles/osint_vm_setup.git
 cd osint_vm_setup
 ```
 ### Paso 2: Ejecutar el Script de Configuración
