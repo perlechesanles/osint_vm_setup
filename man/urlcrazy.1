@@ -1,0 +1,23 @@
+.TH URLCRAZY 1 "July 2024" "Version 1.0" "User Commands"
+.SH NAME
+urlcrazy \- Herramienta para generar y verificar dominios typo-squatting
+.SH SYNOPSIS
+.B urlcrazy
+.RI [ opciones ] " <dominio>"
+.SH DESCRIPCIÓN
+URLCrazy es una herramienta que genera y verifica dominios typo-squatting.
+
+.SH OPCIONES
+.TP
+.BI \-o ", \--output" " <archivo>"
+Especifica el archivo de salida donde se guardarán los resultados en formato CSV. Por defecto, el archivo de salida es \fBresultados_urlcrazy.csv\fR.
+
+.SH EJEMPLOS
+.B
+urlcrazy example.com
+.br
+.B
+urlcrazy \-o resultados.csv example.com
+
+.SH AUTOR
+Desarrollado por URLCrazy Project.
